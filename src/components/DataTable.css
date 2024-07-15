@@ -1,0 +1,76 @@
+.table-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .toggle-columns {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .toggle-columns div {
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .toggle-columns input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pagination-controls button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc;
+  }
+  
+  .pagination-controls select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pagination-controls span {
+    margin-left: 10px;
+  }
+  
